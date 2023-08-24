@@ -61,7 +61,9 @@ The `calc_f_explained_var(sum_map: np.ndarray, params: GaussianParameters) -> fl
 fxvar = calc_f_explained_var(numpy_2d_array, param_estimate)
 ```
 
-![fxvar_formula](results/fxvar_formula.png)
+<p style="text-align:center;">
+  <img src="results/fxvar_formula.png" alt="fxvar_formula" width="300">
+</p>
 
 Here:
 
@@ -74,10 +76,17 @@ Here:
 Look at the `examples.py` file for examples of:
 
 1. Fitting a 2D Gaussian to a single Gaussian.
-![example1](results/example1.png)
+
+<p style="text-align:center;">
+  <img src="results/example1.png" alt="example1" width="300">
+</p>
 
 2. Fitting a 2D Gaussian to a sum of two Gaussians.
-![example2](results/example2.png)
+
+<p style="text-align:center;">
+  <img src="results/example2.png" alt="example2" width="300">
+</p>
+
 
 3. Using multiprocessing to fit multiple images and save the fit in a multipage PDF file.
 
