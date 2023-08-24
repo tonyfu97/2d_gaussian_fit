@@ -1,17 +1,6 @@
 # Gaussian 2D Fitting
 
-This repository contains code to fit a 2D Gaussian model to given data. It includes examples of fitting a single Gaussian, a sum of two Gaussians, and using multiprocessing to fit multiple images.
-
-## Requirements
-
-The code requires Python 3.x and depends on the following libraries:
-
-- numpy
-- matplotlib
-- scipy
-- tqdm
-
-A `requirements.txt` file is provided to install these dependencies.
+This repository contains code to fit a 2D Gaussian model to given data. A `requirements.txt` file is provided to install these dependencies. All the code you need is in the `gaussian_2d_fitting.py` file.
 
 ## Gaussian 2D Fitting
 
@@ -75,5 +64,5 @@ Look at the `examples.py` file for examples of:
 
 3. Using multiprocessing to fit multiple images and save the fit in a multipage PDF file.
 
-- A [PDF file](`results/fit_results.pdf`) containing the plots of the fitted Gaussians.
-- A [text file](`results/fit_results.txt`) containing the estimated parameters, standard errors, and explained variances for each fit.
+- A [PDF file](`./results/fit_results.pdf`) containing the plots of the fitted Gaussians.
+- A [text file](`./results/fit_results.txt`) containing the estimated parameters, standard errors, and explained variances for each fit.
