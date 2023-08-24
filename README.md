@@ -27,21 +27,6 @@ where `param_estimate` and `param_sem` are NamedTuple objects containing the fol
 
 ```python
 class GaussianParameters(NamedTuple):
-    """
-    amplitude: int or float
-        The amplitude of the Gaussian, i.e., the max of the Gaussian if the
-        offset is zero. Unitless.
-    mu_x & mu_y: int or float
-        The center coordiates of the Gaussian, in unit pixels.
-    sigma_1 & sigma_2: int or float
-        The std. dev. of the two orthogonal axis in unit pixels. sigma_1
-        should be the horizontal axis if theta = 0 degree.
-    theta: int or float
-        The angle of the sigma_1 away from the positive x-axis, measured
-        counterclockwise in unit degrees.
-    offset: int or float
-        The offset of the Gaussian. Unitless.
-    """
     amplitude: float
     mu_x: float
     mu_y: float
@@ -90,5 +75,5 @@ Look at the `examples.py` file for examples of:
 
 3. Using multiprocessing to fit multiple images and save the fit in a multipage PDF file.
 
-- A PDF file (`results/fit_results.pdf`) containing the plots of the fitted Gaussians.
-- A text file (`results/fit_results.txt`) containing the estimated parameters, standard errors, and explained variances for each fit.
+- A [PDF file](`results/fit_results.pdf`) containing the plots of the fitted Gaussians.
+- A [text file](`results/fit_results.txt`) containing the estimated parameters, standard errors, and explained variances for each fit.
